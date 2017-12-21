@@ -10,10 +10,10 @@ class PythonSomeTests(unittest.TestCase):
         self.assertTrue(True, True)
 
     def test_assert_upper(self):
-        self.assertEqual("TEST321", "TEST")
+        self.assertEqual("TEST", "TEST")
 
     def test_assert_greater(self):
-        self.assertGreater(10, 20)
+        self.assertGreater(10, 9)
 
     def tearDown(self):
         pass
