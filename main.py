@@ -10,7 +10,7 @@ class PythonSomeTests(unittest.TestCase):
         self.assertTrue(True, True)
 
     def test_assert_upper(self):
-        self.assertEqual("TEST", "TEST")
+        self.assertEqual("TEST", "TEST1")
 
     def test_assert_greater(self):
         self.assertGreater(10, 9)
