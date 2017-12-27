@@ -14,7 +14,10 @@ class PythonSomeTests(unittest.TestCase):
 
     def test_assert_greater(self):
         self.assertGreater(10, 9)
-        
+      
+    def test_assert_greater(self):
+        self.assertGreater(10, 9
+    
     def tearDown(self):
         pass
 
